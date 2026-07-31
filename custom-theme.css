@@ -1,0 +1,141 @@
+/* Custom Color Theme - Off-White (#f5f0ea) with Green accents */
+:root {
+  --green: #4cb812 !important;
+  --green-dark: #3aad09 !important;
+}
+
+/* Header bars - off-white */
+.window-strip { background: #f5f0ea !important; border-bottom-color: #e0dbd4 !important; color: #333 !important; }
+.top-tabs { background: #f5f0ea !important; border-bottom-color: #e0dbd4 !important; }
+.top-tab { color: #333 !important; }
+.top-tab.active { border-color: #e0dbd4 !important; border-bottom: 2px solid #4cb812 !important; color: #3aad09 !important; background: #f5f0ea !important; }
+.ribbon { background: #f5f0ea !important; border-bottom-color: #e0dbd4 !important; }
+.sub-tabs { background: #f5f0ea !important; border-bottom-color: #e0dbd4 !important; }
+.sub-tab { background: #eee9e2 !important; border-color: #e0dbd4 !important; color: #555 !important; }
+.sub-tab.active { background: #f5f0ea !important; color: #3aad09 !important; border-bottom: 2px solid #4cb812 !important; }
+.page-heading { background: #f5f0ea !important; border-bottom-color: #e0dbd4 !important; color: #333 !important; }
+.screen-title, .screen-title.green { background: #f5f0ea !important; border-bottom-color: #e0dbd4 !important; color: #333 !important; }
+
+/* Module icons - Bright green filled with white icons */
+.module-icon { border-color: #3aad09 !important; background: linear-gradient(160deg, #5cc917, #3aad09) !important; border-radius: 8px !important; }
+.module:hover .module-icon, .module.active .module-icon { background: linear-gradient(160deg, #6dd627, #4cb812) !important; }
+.module-label { color: #333 !important; }
+.glyph { color: #ffffff !important; }
+
+/* Table headers */
+th { background: linear-gradient(#2e7d32, #1b5e20) !important; border-color: #1b5e20 !important; color: #ffffff !important; }
+
+/* Toolbar - off-white */
+.toolbar { background: #f5f0ea !important; border-bottom-color: #e0dbd4 !important; }
+.tool-button.primary { background: linear-gradient(160deg, #5cc917, #3aad09) !important; border-color: #3aad09 !important; color: #fff !important; }
+
+/* Status bar */
+.status-bar { background: #f5f0ea !important; border-top: 1px solid #e0dbd4 !important; color: #333 !important; }
+
+/* Grid action buttons */
+.grid-action { background: linear-gradient(135deg, #5cc917, #3aad09) !important; border-color: #3aad09 !important; }
+.claims-act-btn.medical, .claims-act-btn.treatment, .claims-act-btn.edit { background: linear-gradient(135deg, #5cc917, #3aad09) !important; border-color: #3aad09 !important; }
+.pat-act-btn { background: linear-gradient(135deg, #5cc917, #3aad09) !important; border-color: #3aad09 !important; }
+
+/* Dialogs */
+.dialog-title { background: #f5f0ea !important; color: #333 !important; border-bottom: 1px solid #e0dbd4 !important; }
+
+/* Insurance header */
+.ins-screen-header { border-color: #e0dbd4 !important; }
+.ins-header-title { color: #333 !important; }
+
+/* Selected rows */
+tr.selected td, tr.selected td:nth-child(n) { background: #b9f6ca !important; border-top: 2px solid #4cb812 !important; border-bottom: 2px solid #4cb812 !important; }
+
+/* Calendar */
+.month-grid .today { background: #e8f9e0 !important; }
+.month-grid .cal-selected { background: linear-gradient(135deg, #5cc917, #3aad09) !important; border-color: #3aad09 !important; color: #fff !important; }
+
+/* Legends */
+.legend.arrived { background: #4cb812 !important; }
+.legend.consulted { background: #0174cf !important; }
+.legend.billed { background: #d4a800 !important; }
+
+/* Table rows - off-white */
+td { background: #f5f0ea !important; color: #333 !important; border-color: #e0dbd4 !important; }
+tr:nth-child(even) td { background: #f5f0ea !important; }
+tr.selected td { background: #b9f6ca !important; border-top-color: #4cb812 !important; border-bottom-color: #4cb812 !important; }
+tr[data-mr] { cursor: pointer !important; }
+tr[data-mr]:hover td { background: #e8f5e9 !important; }
+tr[data-mr].selected td { background: #b9f6ca !important; }
+
+/* Complete screen - off-white everywhere */
+body { background: #f5f0ea !important; }
+.desktop { background: #f5f0ea !important; }
+.content { background: #f5f0ea !important; }
+.grid-shell { background: #f5f0ea !important; }
+.schedule-wrap { background: #f5f0ea !important; }
+.slot { background: #f5f0ea !important; }
+.time-cell { background: #f5f0ea !important; }
+.appointment-side { background: #f5f0ea !important; }
+.appointment-layout { background: #f5f0ea !important; }
+.day-grid { background: #f5f0ea !important; }
+.slot-col-empty { background: #f5f0ea !important; }
+.legend-bar { background: #f5f0ea !important; border-bottom-color: #e0dbd4 !important; }
+.appt-toolbar-row1 { background: #f5f0ea !important; border-bottom-color: #e0dbd4 !important; }
+.appt-legend-row { background: #f5f0ea !important; border-bottom-color: #e0dbd4 !important; }
+.appt-filter-row { background: #f5f0ea !important; border-bottom-color: #e0dbd4 !important; }
+.month-box { background: #f5f0ea !important; }
+.connected { background: #f5f0ea !important; }
+.notes-panel { background: #f5f0ea !important; color: #333 !important; }
+.dialog-body { background: #f5f0ea !important; }
+.appt-dialog-body { background: #f5f0ea !important; }
+.appt-purpose { background: #f5f0ea !important; }
+.appt-tab-body { background: #f5f0ea !important; }
+.appt-tab-panel { background: #f5f0ea !important; }
+
+/* Inputs */
+input:focus, select:focus, textarea:focus { outline-color: #4cb812 !important; border-color: #4cb812 !important; }
+
+/* View tabs */
+.view-tab.active { background: linear-gradient(135deg, #5cc917, #3aad09) !important; border-color: #3aad09 !important; color: #fff !important; }
+
+/* Appointment buttons */
+.appt-new-btn { background: linear-gradient(135deg, #5cc917, #3aad09) !important; border-color: #3aad09 !important; }
+.appt-add-btn { background: linear-gradient(135deg, #5cc917, #3aad09) !important; border-color: #3aad09 !important; }
+
+/* Consultation */
+.consult-title-bar { background: linear-gradient(90deg, #3aad09, #5cc917) !important; }
+.consult-footer .tool-button.primary { background: #4cb812 !important; }
+.ct-add-btn { background: linear-gradient(135deg, #5cc917, #3aad09) !important; }
+
+/* Insurance buttons */
+.ins-btn-primary { background: linear-gradient(135deg, #5cc917, #3aad09) !important; border-color: #3aad09 !important; }
+
+
+/* Side menu - green circle icons */
+.appointment-actions { background: #f5f0ea !important; padding: 6px 4px !important; }
+.appointment-actions .side-action {
+  display: flex !important;
+  align-items: center !important;
+  gap: 8px !important;
+  height: 26px !important;
+  padding: 0 8px !important;
+  border: none !important;
+  background: transparent !important;
+  box-shadow: none !important;
+  font-size: 12px !important;
+  font-weight: 700 !important;
+  color: #333 !important;
+  text-align: left !important;
+  min-width: 0 !important;
+  width: 100% !important;
+  justify-content: flex-start !important;
+}
+.appointment-actions .side-action:hover {
+  background: #e8f5e9 !important;
+}
+.green-dot {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  min-width: 14px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #5cc917, #3aad09);
+  box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+}
